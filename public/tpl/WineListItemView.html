@@ -1,0 +1,10 @@
+<a class="btn  view_description">Description</a>
+
+<a href="#wines/<%= id %>" class="thumbnail plain" style="text-align: center;">
+    <img src="<%= picture === null ? 'pics/generic.jpg' : 'pics/' + picture %>" height="150" width="125" alt="">
+    <h5><%= name %></h5>
+    <%= year %> <%= grapes %><br/>
+    <i class="icon-globe"></i> <%= region %>, <%= country %><br/>
+	<!--	<span><%= description %></span> -->
+</a>
+<div id="item_<%= id %>" class="item_desc" style="display:none;max-width:150px;"><%= description %></div>
