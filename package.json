@@ -1,0 +1,20 @@
+{
+  "name": "AIM_Service",
+  "version": "0.0.1",
+  "description": "first version",
+  "main": "server.js",
+  "dependencies": {
+    "moment": "~2.6.0",
+    "mysql": "~2.1.1",
+    "util": "~0.10.3",
+    "express": "~3.5.1",
+    "mongodb": "~1.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "yop",
+    "start": "node server.js"
+  },
+  "author": "MTS",
+  "license": "ISC"
+}
